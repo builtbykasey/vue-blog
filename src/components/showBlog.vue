@@ -26,11 +26,14 @@ export default {
   }
 }
 
-
 </script>
 
 <style lang='sass'>
 #single-blog
   max-width: 960px
   margin: 0 auto
+  padding: 20px
+  background: #eee
+  border: 1px dotted #aaa
+
 </style>

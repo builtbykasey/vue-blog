@@ -56,7 +56,6 @@ export default {
   methods: {
     post:function(){
       this.$http.post('https://vue-blog-1699f.firebaseio.com//posts.json', this.blog).then(function(data){
-        console.log(data)
         this.submitted = true
       })
     }
@@ -117,4 +116,5 @@ button
   border-radius: 4px
   font-size: 18px
   cursor: pointer
+  
 </style>

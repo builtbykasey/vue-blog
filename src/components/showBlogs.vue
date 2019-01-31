@@ -20,9 +20,6 @@ export default {
       search: ''
     }
   }, 
-  methods: {
-
-  },
   created() {
     this.$http.get('https://vue-blog-1699f.firebaseio.com//posts.json').then(function(data){
       return data.json()

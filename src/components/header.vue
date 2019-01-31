@@ -9,17 +9,7 @@
 
 <script>
 export default {
-  components: {
 
-  },
-  data() {
-    return {
-
-    }
-  }, 
-  methods: {
-
-  }
 }
 </script>
 
@@ -47,4 +37,5 @@ nav
 .router-link-active
   background: #eee
   color: #444
+  
 </style>
